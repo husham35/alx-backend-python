@@ -2,10 +2,9 @@
 """ Parameterize a unit test
 """
 import unittest
-import requests
 from unittest.mock import patch
 from utils import access_nested_map, get_json, memoize
-from typing import Mapping, Sequence, Any
+from typing import Mapping, Sequence
 from parameterized import parameterized
 
 
